@@ -7,6 +7,7 @@
 
 #include <cstdint>
 #include <unordered_map>
+#include <stdlib.h>
 
 namespace hooker {
 #define PAGE_START(x,pagesize)	((x) &~ ((pagesize) - 1))
